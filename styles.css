@@ -1,3 +1,8 @@
+@font-face {
+  font-family: odin-font;
+  src: url(/font/Norse-Bold.otf);
+}
+
 body {
   font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
@@ -5,13 +10,33 @@ body {
   height: 100vh;
 }
 
-.left {
-  overflow: hidden;
+.background {
+  position: absolute;
+  height: 100vh;
+  width: 50%;
 }
 
-.background {
-  height: 100vh;
-  margin: 0 -520px 0 -200px;
+.logo-container {
+  height: 200px;
+  position: absolute;
+  background-color: black;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paragraph {
+  color: white;
+  font-family: odin-font, 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 100px;
+}
+
+.logo {
+  height: 180px;
+  align-content: center;
 }
 
 .right {
@@ -19,6 +44,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: start;
+  margin-left: 50%;
 }
 
 .text {
