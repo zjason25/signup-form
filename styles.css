@@ -79,6 +79,11 @@ form {
   padding-left: 100px;
 }
 
+.form-container {
+  display: flex;
+  gap: 5em;
+}
+
 legend {
   font-size: 24px;
   font-weight: 500;
