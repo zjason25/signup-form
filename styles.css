@@ -115,7 +115,7 @@ input:valid {
   border-color: green;
 }
 
-input:invalid {
+input:not(:placeholder-shown):invalid {
   outline: 1px solid red;
 }
 
